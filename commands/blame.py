@@ -18,4 +18,4 @@ async def blame_command(interaction: discord.Interaction, user: discord.User, bu
         )
     else:
         await interaction.response.send_message("Blaming...", ephemeral=True)
-        await interaction.followup.send(f"{user.mention}, raid has been executed successfully. Glory to the ccp thugs", ephemeral=False)
+        await interaction.followup.send(f"{user.mention}, server raid has been executed successfully. Glory to the Islamic State", ephemeral=False)
